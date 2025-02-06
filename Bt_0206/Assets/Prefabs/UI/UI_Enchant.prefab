@@ -310,8 +310,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d458ac61320c344692febfa338c1aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiHeader: 
-  uiType: 2
+  Header: 
+  Type: 2
+  Icon: {fileID: 0}
 --- !u!1 &5458015779328096478
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OnEnchant
+  m_text: "\uAC15\uD654\uD558\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3973f7b199b840c4a916f693c50ad650, type: 2}
   m_sharedMaterial: {fileID: 4590603203324086967, guid: 3973f7b199b840c4a916f693c50ad650, type: 2}

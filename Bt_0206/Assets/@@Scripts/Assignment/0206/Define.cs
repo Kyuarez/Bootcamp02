@@ -1,6 +1,53 @@
+using UnityEngine;
+
 public static class Define 
 {
-    
+    #region temp
+    //이거, 나중에 json 파일로 만들거라서 임시로 체크용 
+    public static string UI_NAME_MENU = "메뉴";
+    public static string UI_NAME_ENCHANT = "강화";
+
+
+    public static string UI_ICON_MENU = "Sprites/UI/UI_Menu";
+    public static string UI_ICON_ENCHANT = "Sprites/UI/UI_Enchant";
+
+    public static string GetHeaderByUIType(UIType uiType)
+    {
+        string header = null;
+        switch (uiType)
+        {
+            case UIType.MENU:
+                header = UI_NAME_MENU;
+                break;
+            case UIType.ENCHANT:
+                header = UI_NAME_ENCHANT;
+                break;
+            default:
+                break;
+        }
+        return header;
+    }
+
+    public static Sprite GetIconByUIType(UIType uiType)
+    {
+        Sprite sprite = null;
+        switch (uiType)
+        {
+            case UIType.MENU:
+                sprite = Resources.Load<Sprite>(UI_ICON_MENU);
+                break;
+            case UIType.ENCHANT:
+                sprite = Resources.Load<Sprite>(UI_ICON_ENCHANT);
+                break;
+            default:
+                break;
+        }
+        return sprite;
+    }
+    #endregion
+
+
+
 }
 
 

@@ -5,11 +5,15 @@ using UnityEngine;
 /// </summary>
 public class UIBase : MonoBehaviour
 {
-    public string uiHeader;
-    public UIType uiType;
+    public string Header;
+    public UIType Type;
+    public Sprite Icon;
 
+    //데이터 넣고, 다 false
     public virtual void UIInitialize()
     {
-
+        Header = Define.GetHeaderByUIType(Type);
+        Icon = Define.GetIconByUIType(Type);
+        gameObject.SetActive(false);
     }
 }
