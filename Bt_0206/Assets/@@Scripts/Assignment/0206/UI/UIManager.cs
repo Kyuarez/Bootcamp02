@@ -6,8 +6,10 @@ public class UIManager : MonoBehaviour
     private static UIManager _instance;
     public static UIManager Instance {  get { return _instance; } }
 
+    private UILobby uiLobby;
     private UIContents uiContents;
     private UIToolbar uiToolbar;
+
 
     private void Awake()
     {
@@ -22,11 +24,16 @@ public class UIManager : MonoBehaviour
         }
         #endregion
 
+        uiLobby = GetComponentInChildren<UILobby>();
         uiContents = GetComponentInChildren<UIContents>();
         uiToolbar = GetComponentInChildren<UIToolbar>();
 
         uiContents.RegisterUI(); //ui 등록
-        ShowUI(UIType.MENU);
+    }
+
+    private void Start()
+    {
+        ShowUI(UIType.MENU); //이거 로그인 한 뒤에 하자...
     }
 
     public void ShowUI(UIType uiType)
