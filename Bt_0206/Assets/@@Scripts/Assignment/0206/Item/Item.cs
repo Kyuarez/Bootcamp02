@@ -11,6 +11,8 @@ public class Item : MonoBehaviour
     {
         
     }
+
+    //등급 별 수치들 Init 할 때 계산
 }
 
 //Default 아이템 상태
