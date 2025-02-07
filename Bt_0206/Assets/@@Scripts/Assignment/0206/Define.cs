@@ -78,7 +78,7 @@ public enum ItemType
 public enum ItemGradeType
 {
     Normal,
-    Unique,
+    Epic,
 }
 
 #endregion

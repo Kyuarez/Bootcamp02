@@ -1,0 +1,34 @@
+{
+  "itemData": [
+    {
+      "TempID": 1,
+      "Name": "Excalibur",
+      "Description": "A legendary sword with immense power.",
+      "IconPath": "icons/excalibur.png",
+      "Damage": 100,
+      "Armor": 20,
+      "EnchantCount": 3,
+      "ItemGradeType": "Normal"
+    },
+    {
+      "TempID": 2,
+      "Name": "Iron Shield",
+      "Description": "A sturdy shield made of iron.",
+      "IconPath": "icons/iron_shield.png",
+      "Damage": 0,
+      "Armor": 50,
+      "EnchantCount": 1,
+      "ItemGradeType": "Rare"
+    },
+    {
+      "TempID": 3,
+      "Name": "Magic Wand",
+      "Description": "A wand infused with magical energy.",
+      "IconPath": "icons/magic_wand.png",
+      "Damage": 30,
+      "Armor": 5,
+      "EnchantCount": 5,
+      "ItemGradeType": "Epic"
+    }
+  ]
+}
