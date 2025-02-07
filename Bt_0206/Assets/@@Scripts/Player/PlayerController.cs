@@ -1,5 +1,7 @@
+using Bootcamp0207;
 using System.Collections;
 using UnityEngine;
+
 
 
 [RequireComponent(typeof(Rigidbody))]
@@ -98,10 +100,11 @@ public class PlayerController : MonoBehaviour
     #region Coroutine
     IEnumerator CoOnSleep()
     {
-        yield return new WaitForSeconds(0.5f);
         isSleep = true;
-        movement = new Vector3(Mathf.Lerp(movement.x, 0, 0.5f), 0f, Mathf.Lerp(movement.z, 0, 0.5f));
+        movement = new Vector3(Mathf.Lerp(movement.x, 0, 0.5f * Time.deltaTime), 0f, Mathf.Lerp(movement.z, 0, 0.5f * Time.deltaTime));
         animator.SetBool("isSleep", true);
+        yield return new WaitForSeconds(0.1f);
+        PopupUI.Instance?.OnPopupUI();
         yield return new WaitForSeconds(sleepTime);
         isSleep = false;
         animator.SetBool("isSleep", false);

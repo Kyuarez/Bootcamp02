@@ -1,4 +1,5 @@
 using UnityEngine;
+using Bootcamp0207;
 
 public class MusicSpot : MonoBehaviour
 {
@@ -6,7 +7,6 @@ public class MusicSpot : MonoBehaviour
     {
         if(true == other.gameObject.CompareTag("Player"))
         {
-
         }
     }
 

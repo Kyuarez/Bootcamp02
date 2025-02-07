@@ -1889,7 +1889,7 @@ GameObject:
   - component: {fileID: 8233624002729193285}
   m_Layer: 0
   m_Name: Dragon
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1925,6 +1925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   rotationSpeed: 2
+  sleepTime: 5
 --- !u!95 &1968669730350168117
 Animator:
   serializedVersion: 7

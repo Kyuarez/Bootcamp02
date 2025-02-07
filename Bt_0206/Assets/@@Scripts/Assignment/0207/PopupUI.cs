@@ -11,12 +11,18 @@ namespace Bootcamp0207
         [SerializeField] private Image popupBackground;
         [SerializeField] private TextMeshProUGUI popupText;
 
+        public static PopupUI Instance { get; private set; }
+
         private void Awake()
         {
-            InitOnPopup();
+            if (Instance == null)
+                Instance = this;
+            else
+                Destroy(gameObject);  // 중복 방지
+            ResetPopupUI();
         }
 
-        public void InitOnPopup()
+        public void ResetPopupUI()
         {
             popupBackground.color = new Color(0, 0, 0, 0);
             popupText.color = new Color(1, 1, 1, 0);
@@ -25,7 +31,7 @@ namespace Bootcamp0207
         public void OnPopupUI()
         {
             StopAllCoroutines();
-            InitOnPopup();
+            ResetPopupUI();
 
             StartCoroutine("CoOnPopupUI");
             
@@ -34,12 +40,17 @@ namespace Bootcamp0207
         IEnumerator CoOnPopupUI()
         {
             float elapsedTime = 0;
+            float a = 0;
+
             while (elapsedTime < duration) 
             {
-
                 elapsedTime += Time.deltaTime;
+                a = Mathf.Lerp(0f, 1f, elapsedTime / duration);
+                popupBackground.color = new Color(0, 0, 0, (a * 0.7f));
+                popupText.color = new Color(1, 1, 1, a);
             }
-            yield return null;
+            yield return new WaitForSeconds(4.5f);
+            ResetPopupUI();
         }
     }
 
