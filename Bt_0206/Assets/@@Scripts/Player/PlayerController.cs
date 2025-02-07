@@ -2,6 +2,11 @@ using Bootcamp0207;
 using System.Collections;
 using UnityEngine;
 
+public enum PopupType
+{
+    Sleep,
+    TV,
+}
 
 
 [RequireComponent(typeof(Rigidbody))]
@@ -12,7 +17,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 2.5f;
     [SerializeField] private float rotationSpeed = 2.0f;
-    [SerializeField] private float sleepTime = 5.0f;
+    [SerializeField] private float sleepTime = 10f;
+    [SerializeField] private float tvTime = 20f;
     private Vector3 movement = Vector3.zero;
 
 
@@ -20,6 +26,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
 
     private bool isSleep;
+    private bool isTV;
 
 
     public Vector3 CurrentPos { get { return transform.position; } }
@@ -35,6 +42,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         isSleep = false;
+        isTV = false;
     }
 
 
@@ -45,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(isSleep == false)
+        if(isSleep == false && isTV == false)
         {
             Move();
         }
@@ -70,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateState()
     {
-        if(Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
+        if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
         {
             animator.SetBool("isMove", false);
         }
@@ -79,13 +87,14 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMove", true);
         }
 
-        if(isSleep == true)
+        if (animator.GetBool("isSleep") != isSleep)
         {
-            animator.SetBool("isSleep", true);
+            animator.SetBool("isSleep", isSleep);
         }
-        else
+
+        if (animator.GetBool("isTV") != isTV)
         {
-            animator.SetBool("isSleep", false);
+            animator.SetBool("isTV", isTV);
         }
     }
 
@@ -93,7 +102,12 @@ public class PlayerController : MonoBehaviour
     {
         if (true == other.gameObject.CompareTag("MusicSpot"))
         {
-            StartCoroutine(CoOnSleep());           
+            StartCoroutine(CoOnSleep());
+        }
+
+        if(true == other.gameObject.CompareTag("TVSpot"))
+        {
+            StartCoroutine(CoOnTV());
         }
     }
 
@@ -101,14 +115,21 @@ public class PlayerController : MonoBehaviour
     IEnumerator CoOnSleep()
     {
         isSleep = true;
-        movement = new Vector3(Mathf.Lerp(movement.x, 0, 0.5f * Time.deltaTime), 0f, Mathf.Lerp(movement.z, 0, 0.5f * Time.deltaTime));
-        animator.SetBool("isSleep", true);
+        movement = Vector3.zero;
         yield return new WaitForSeconds(0.1f);
-        PopupUI.Instance?.OnPopupUI();
+        PopupUI.Instance?.OnPopupUI(PopupType.Sleep);
         yield return new WaitForSeconds(sleepTime);
         isSleep = false;
-        animator.SetBool("isSleep", false);
     }
 
+    IEnumerator CoOnTV()
+    {
+        isTV = true;
+        movement = Vector3.zero;
+        yield return new WaitForSeconds(0.1f);
+        PopupUI.Instance?.OnPopupUI(PopupType.TV);
+        yield return new WaitForSeconds(tvTime);
+        isTV = false;
+    }
     #endregion
 }

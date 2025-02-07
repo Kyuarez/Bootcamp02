@@ -7,6 +7,7 @@ public class MusicSpot : MonoBehaviour
     {
         if(true == other.gameObject.CompareTag("Player"))
         {
+            AudioManager.Instance.OnPlay();
         }
     }
 
@@ -14,7 +15,7 @@ public class MusicSpot : MonoBehaviour
     {
         if (true == other.gameObject.CompareTag("Player"))
         {
-
+            AudioManager.Instance.OnStop();
         }
     }
 }

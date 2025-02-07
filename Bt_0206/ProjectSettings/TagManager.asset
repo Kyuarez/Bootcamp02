@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - MusicSpot
+  - TVSpot
   layers:
   - Default
   - TransparentFX

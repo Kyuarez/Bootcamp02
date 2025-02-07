@@ -26,12 +26,25 @@ namespace Bootcamp0207
         {
             popupBackground.color = new Color(0, 0, 0, 0);
             popupText.color = new Color(1, 1, 1, 0);
+            popupText.text = string.Empty;
         }
 
-        public void OnPopupUI()
+        public void OnPopupUI(PopupType type)
         {
             StopAllCoroutines();
             ResetPopupUI();
+
+            switch (type)
+            {
+                case PopupType.Sleep:
+                    popupText.text = OnSoundText;
+                    break;
+                case PopupType.TV:
+                    popupText.text = OnTVText;
+                    break;
+                default:
+                    break;
+            }
 
             StartCoroutine("CoOnPopupUI");
             
@@ -52,6 +65,9 @@ namespace Bootcamp0207
             yield return new WaitForSeconds(4.5f);
             ResetPopupUI();
         }
+
+        private readonly string OnSoundText = "음악이 너무 좋네요. 용이 자고 싶데요. Zzz";
+        private readonly string OnTVText = "아이쿠! 깜짝이야! TV 소리에 깜짝 놀라서 용이 화났어요!";
     }
 
 }
