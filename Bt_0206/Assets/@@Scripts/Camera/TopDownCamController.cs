@@ -4,7 +4,7 @@ public class TopDownCamController : MonoBehaviour
 {
     private Camera cam;
 
-    [SerializeField] private Vector3 fixedPos = new Vector3(-2.5f, 8.0f, -5f);
+    [SerializeField] private Vector3 fixedPos = new Vector3(-2.5f, 10.0f, -7.5f);
     [SerializeField] private float fixedR_X = 45f;
     [SerializeField] private float fixedR_Y = 10f;
     [SerializeField] private float smoothSpeed = 2.0f;

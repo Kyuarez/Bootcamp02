@@ -708,10 +708,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1653523270}
   m_HandleRect: {fileID: 1110302665}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1587,10 +1587,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1874471262}
   m_HandleRect: {fileID: 1490144077}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1827,10 +1827,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 408099895}
   m_HandleRect: {fileID: 1460148407}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2496,8 +2496,9 @@ GameObject:
   - component: {fileID: 2060923058}
   - component: {fileID: 2060923060}
   - component: {fileID: 2060923059}
+  - component: {fileID: 2060923061}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: SoundSettingsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2562,6 +2563,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060923057}
   m_CullTransparentMesh: 1
+--- !u!114 &2060923061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060923057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f476111e2a2d7459eabf214e317444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: d583f4ef235f3de47a235fbcee96e93d, type: 2}
+  slider_master: {fileID: 438016253}
+  slider_bgm: {fileID: 1562029048}
+  slider_sfx: {fileID: 1456016470}
 --- !u!1 &2091600305
 GameObject:
   m_ObjectHideFlags: 0
