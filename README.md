@@ -17,9 +17,7 @@
 [대표적인 코드]
 그냥 UnityWebRequest로 동적으로 음원 파일 불러오기 (메소드 나가면, 변수 사라지니까 sfx 같은 거 구현에 유리)
 
-'''
-
-
+```csharp
 IEnumerator GetAudioClip()
 {
     using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip("file:///" + Application.dataPath + "/Audio/GleeClubPolka.mp4", AudioType.WAV))
@@ -37,9 +35,7 @@ IEnumerator GetAudioClip()
     }
 
 }
-
-
-'''
+```
 
 ------
 #### 오디오 믹서(AudioMixer)
@@ -51,9 +47,7 @@ IEnumerator GetAudioClip()
 
 
 [대표적인 코드]
-'''
-
-
+```csharp
 public class UISoundSettings : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
@@ -90,9 +84,7 @@ public class UISoundSettings : MonoBehaviour
     }
 
 }
-
-
-'''
+```
 
 
 #### 참고 : 왜 Mathf.Log10(value) * 20 사용해?
