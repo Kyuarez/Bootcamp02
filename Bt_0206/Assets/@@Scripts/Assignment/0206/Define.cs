@@ -22,6 +22,9 @@ public static class Define
     public static string UI_ICON_MENU = "Sprites/UI/UI_Menu";
     public static string UI_ICON_ENCHANT = "Sprites/UI/UI_Enchant";
 
+    public static string PATH_SOUND_BGM = "Sound/BGM";
+    public static string PATH_SOUND_SFX = "Sound/SFX";
+
     public static string GetHeaderByUIType(UIType uiType)
     {
         string header = null;
@@ -57,7 +60,30 @@ public static class Define
     }
     #endregion
 
+    public static AudioClip GetSFX(SFXSoundType soundType)
+    {
+        AudioClip clip = null;
+        string fileName = "/" + soundType.ToString();
+        clip = Resources.Load<AudioClip>(PATH_SOUND_SFX + fileName + ".wav");
+        return clip;
+    }
+    public static AudioClip GetBGM(BGMSoundType soundType)
+    {
+        AudioClip clip = null;
 
+        switch (soundType)
+        {
+            case BGMSoundType.Ambient:
+                clip = Resources.Load<AudioClip>(PATH_SOUND_BGM + "/" + "NightAmbient.wav");
+                break;
+            case BGMSoundType.NightAmbient:
+                clip = Resources.Load<AudioClip>(PATH_SOUND_BGM + "/" + "Ambient1.wav");
+                break;
+            default:
+                break;
+        }
+        return clip;
+    }
 
 }
 
@@ -79,6 +105,23 @@ public enum ItemGradeType
 {
     Normal,
     Epic,
+}
+
+public enum SFXSoundType
+{
+    BoomCharge,
+    Complete,
+    Death,
+    Explosion,
+    Strange,
+    Victory,
+
+}
+
+public enum BGMSoundType
+{
+    Ambient,
+    NightAmbient,
 }
 
 #endregion
