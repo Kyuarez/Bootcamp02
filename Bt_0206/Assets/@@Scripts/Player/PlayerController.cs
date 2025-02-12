@@ -2,11 +2,7 @@ using Bootcamp0207;
 using System.Collections;
 using UnityEngine;
 
-public enum PopupType
-{
-    Sleep,
-    TV,
-}
+
 
 
 [RequireComponent(typeof(Rigidbody))]
@@ -15,21 +11,27 @@ public class PlayerController : MonoBehaviour
     private static PlayerController _instance;
     public static PlayerController Instance { get { return _instance; } }
 
+
+    [Header("Movement")]
     [SerializeField] private float moveSpeed = 2.5f;
     [SerializeField] private float rotationSpeed = 2.0f;
+
+    [Header("Animation Time")]
     [SerializeField] private float sleepTime = 10f;
     [SerializeField] private float tvTime = 20f;
+
+
     private Vector3 movement = Vector3.zero;
-
-
     private Rigidbody rigid;
     private Animator animator;
 
     private bool isSleep;
     private bool isTV;
+    private bool isDead;
 
 
     public Vector3 CurrentPos { get { return transform.position; } }
+    
 
 
     private void Awake()
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         isSleep = false;
         isTV = false;
+        isDead = false;
     }
 
 
@@ -53,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(isSleep == false && isTV == false)
+        if(isSleep == false && isTV == false && isDead == false)
         {
             Move();
         }
@@ -78,14 +81,38 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateState()
     {
-        if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
+        if(isDead == true)
         {
-            animator.SetBool("isMove", false);
+            return;
         }
-        else
+
+        if (true == Input.GetKey(KeyCode.Space))
         {
-            animator.SetBool("isMove", true);
+            moveSpeed = 5;
+            animator.SetBool("isFly", true);
+            if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
+            {
+                animator.SetBool("isFlyMove", false);
+            }
+            else
+            {
+                animator.SetBool("isFlyMove", true);
+            }
         }
+        else 
+        {
+            moveSpeed = 2.5f;
+            animator.SetBool("isFly", false);
+            if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
+            {
+                animator.SetBool("isMove", false);
+            }
+            else
+            {
+                animator.SetBool("isMove", true);
+            }
+        }
+        
 
         if (animator.GetBool("isSleep") != isSleep)
         {
@@ -96,7 +123,9 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isTV", isTV);
         }
+        
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -130,6 +159,23 @@ public class PlayerController : MonoBehaviour
         PopupUI.Instance?.OnPopupUI(PopupType.TV);
         yield return new WaitForSeconds(tvTime);
         isTV = false;
+    }
+    #endregion
+
+    #region Event
+    public void OnDamageByEvent()
+    {
+        PopupUI.Instance?.OnPopupUI(PopupType.Damage);
+    }
+
+    public void OnDeadByEvent()
+    {
+        isDead = true;
+        if (animator.GetBool("isDead") != isDead)
+        {
+            animator.SetBool("isDead", isDead);
+        }
+        PopupUI.Instance?.OnPopupUI(PopupType.Dead);
     }
     #endregion
 }

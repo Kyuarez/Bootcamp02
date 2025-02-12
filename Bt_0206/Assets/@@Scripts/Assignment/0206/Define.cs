@@ -124,4 +124,12 @@ public enum BGMSoundType
     NightAmbient,
 }
 
+public enum PopupType
+{
+    Sleep,
+    TV,
+    Dead,
+    Damage, //temp
+}
+
 #endregion

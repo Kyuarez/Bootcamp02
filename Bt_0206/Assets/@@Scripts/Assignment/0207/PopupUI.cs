@@ -34,23 +34,34 @@ namespace Bootcamp0207
             StopAllCoroutines();
             ResetPopupUI();
 
+            float delay = 0f;
             switch (type)
             {
                 case PopupType.Sleep:
                     popupText.text = OnSoundText;
+                    delay = 4.5f;
                     break;
                 case PopupType.TV:
                     popupText.text = OnTVText;
+                    delay = 4.5f;
+                    break;
+                case PopupType.Dead:
+                    popupText.text = OnDeadText;
+                    delay = 4.5f;
+                    break;
+                case PopupType.Damage:
+                    popupText.text = OnDamageText;
+                    delay = 1.0f;
                     break;
                 default:
                     break;
             }
 
-            StartCoroutine("CoOnPopupUI");
-            
+            StartCoroutine(CoOnPopupUI(delay));
+
         }
 
-        IEnumerator CoOnPopupUI()
+        IEnumerator CoOnPopupUI(float delay)
         {
             float elapsedTime = 0;
             float a = 0;
@@ -62,12 +73,14 @@ namespace Bootcamp0207
                 popupBackground.color = new Color(0, 0, 0, (a * 0.7f));
                 popupText.color = new Color(1, 1, 1, a);
             }
-            yield return new WaitForSeconds(4.5f);
+            yield return new WaitForSeconds(delay);
             ResetPopupUI();
         }
 
         private readonly string OnSoundText = "À½¾ÇÀÌ ³Ê¹« ÁÁ³×¿ä. ¿ëÀÌ ÀÚ°í ½Íµ¥¿ä. Zzz";
         private readonly string OnTVText = "¾ÆÀÌÄí! ±ôÂ¦ÀÌ¾ß! TV ¼Ò¸®¿¡ ±ôÂ¦ ³î¶ó¼­ ¿ëÀÌ È­³µ¾î¿ä!";
+        private readonly string OnDeadText = "À¸¾Ó¤Ð ¿ëÀÌ Á×¾ú¾î¿ä ¤Ð";
+        private readonly string OnDamageText = "¾Æ¾ß! ¾ÆÇÁÀÝ¾Æ!!";
     }
 
 }
