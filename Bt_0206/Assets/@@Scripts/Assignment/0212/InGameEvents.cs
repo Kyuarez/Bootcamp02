@@ -22,3 +22,14 @@ public class OnDamageEvent
         damageHandler.Invoke();
     }
 }
+
+public class OnDialogueEvent
+{
+    public delegate void DialogueEventHandler(DialogueDataSO bundles);
+    public event DialogueEventHandler dialogueHandler;
+
+    public void OnDialogue(DialogueDataSO bundles)
+    {
+        dialogueHandler.Invoke(bundles);
+    }
+}
