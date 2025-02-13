@@ -10,7 +10,7 @@ namespace Bootcamp0213
         Weekly,
     }
 
-    [CreateAssetMenu(menuName ="Bootcamp/Quest", fileName ="Quest_")]
+    [CreateAssetMenu(menuName ="Bootcamp/Quest/Quest", fileName ="Quest_")]
     public class Quest : ScriptableObject
     {
         public QuestType questType;
@@ -19,7 +19,7 @@ namespace Bootcamp0213
 
         [Header("퀘스트 정보")]
         public string title;
-        public string goal;
+        public string goal; //소제목
         [TextArea] public string description;
 
         public bool isSuccess; //성공 여부

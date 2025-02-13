@@ -9,6 +9,11 @@ namespace Test
             DialogueManager.Instance.OnDialogue();
         }
 
+        public void OnClickOpenQuestButton()
+        {
+
+        }
+
     }
 
 }

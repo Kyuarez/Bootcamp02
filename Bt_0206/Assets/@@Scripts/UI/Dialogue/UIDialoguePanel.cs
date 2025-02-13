@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class UIDialoguePanel : MonoBehaviour
 {
+    [SerializeField] private GameObject panel;
     [SerializeField] private Image backgroundImage;
     [SerializeField] private Image characterImage;
     [SerializeField] private TextMeshProUGUI nameText;
@@ -22,15 +23,15 @@ public class UIDialoguePanel : MonoBehaviour
     {
         //버튼 등록
         btn_next.onClick.AddListener(OnClickNextButton);
-        btn_next.onClick.AddListener(OnClickSkipButton);
+        btn_skip.onClick.AddListener(OnClickSkipButton);
 
         //데이터 리셋
         ResetPanelData();
 
         //비활성화
-        if(gameObject.activeSelf == true)
+        if(panel.activeSelf == true)
         {
-            gameObject.SetActive(false);
+            panel.SetActive(false);
         }
     }
 
@@ -51,7 +52,7 @@ public class UIDialoguePanel : MonoBehaviour
         SetCurrentTextQueue(bundles.dialogueBundles[0]);
         if (gameObject.activeSelf == false)
         {
-            gameObject.SetActive(true);
+            panel.SetActive(true);
         }
         StartCoroutine(CODialogue(currentTextQueue.Dequeue()));
     }
@@ -108,7 +109,7 @@ public class UIDialoguePanel : MonoBehaviour
             {
                 //대화종료
                 ResetPanelData();
-                gameObject.SetActive(false);
+                panel.SetActive(false);
                 return;
             }
 
@@ -124,7 +125,7 @@ public class UIDialoguePanel : MonoBehaviour
     {
         StopAllCoroutines();
         ResetPanelData();
-        gameObject.SetActive(false);
+        panel.SetActive(false);
     }
     #endregion
 }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fc5b34047427a44b27c5da7158df67, type: 3}
+  m_Name: Quest_0
+  m_EditorClassIdentifier: 
+  questID: 0
+  questInfo:
+    questTitle: "[\uC6A9 \uB0A0\uAE30]"
+    questClientName: "\uC0AC\uB77C"
+    questClientSprite: {fileID: 21300000, guid: c9f8a6b4428f87e40a064a741d32575f, type: 3}
+    description: "\uC6A9 \uB0A0\uAE30 1\uD68C \uC131\uACF5"
+  questRequirement: {fileID: 11400000, guid: 1eba0e3b3570d154b84337de40699c6c, type: 2}
+  questReward: {fileID: 11400000, guid: aaca908d02ef550498aaa650ef65abf4, type: 2}
+  isPreCondition: 0
