@@ -8,11 +8,6 @@ public class UIToolBar : MonoBehaviour
     public void OnClickQuestButton()
     {
         UIPanelManager.UIQuestPanel?.SetActiveQuestPanel();
-        if(questNewIcon.activeSelf == true)
-        {
-            SetActiveQuestNewIcon(false);
-            QuestManager.Instance.IsNewQuest = false;
-        }
     }
 
     public void SetActiveQuestNewIcon(bool active)

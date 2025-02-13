@@ -15,6 +15,7 @@ public class UIQuestPanel : MonoBehaviour
     public void SetActiveQuestPanel() 
     {
         RequireQuestData();
+        UIPanelManager.UIToolBar.SetActiveQuestNewIcon(false);
         panel.SetActive(true);
     }
 
@@ -23,6 +24,9 @@ public class UIQuestPanel : MonoBehaviour
         characterImage.sprite = null;
         questTitleText.text = "[Äù½ºÆ®]";
         questDescText.text = "Äù½ºÆ® ¾ø´Âµ¥¿ä";
+        questRequirementText.text = string.Empty;
+        achievementSlider.value = 0;
+        btn_complete.interactable = false;
     }
 
     public void RequireQuestData()
@@ -35,19 +39,40 @@ public class UIQuestPanel : MonoBehaviour
         }
 
         SetQuestPanel(questSO.questInfo);
+        SetQuestProgress(questSO);
     }
 
     public void SetQuestPanel(QuestInfo questInfo)
     {
         characterImage.sprite = questInfo.questClientSprite;
         questTitleText.text = questInfo.questTitle;
-        questDescText.text = questInfo.description;
+        questDescText.text = questInfo.questDesc;
+    }
+
+    public void SetQuestProgress(QuestSO quest)
+    {
+        if(true == quest.questRequirement.IsReached())
+        {
+            btn_complete.interactable = true;
+        }
+        questRequirementText.text = string.Format(quest.questInfo.questRequireDesc, quest.questRequirement.requireAmount, quest.questRequirement.currentAmount);
+        achievementSlider.value = quest.questRequirement.GetProgressPercent();
 
     }
 
+    #region OnClick
     public void OnClickExitButton()
     {
         ResetQuestPanel();
         panel.SetActive(false);
     }
+
+    public void OnClickCompleteButton()
+    {
+        //ÆË¾÷ ¾Ë¶÷
+        ResetQuestPanel();
+        UIPanelManager.UIPopup.OnPopupUI(QuestManager.Instance.CurrentQuest.questReward.GetRewardToText());
+        QuestManager.Instance.CurrentQuest = null;
+    }
+    #endregion
 }

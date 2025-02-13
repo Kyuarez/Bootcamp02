@@ -50,7 +50,7 @@ public class UIDialoguePanel : MonoBehaviour
         currentBundles = bundles;
         SetPanelData(bundles.dialogueBundles[0]);
         SetCurrentTextQueue(bundles.dialogueBundles[0]);
-        if (gameObject.activeSelf == false)
+        if (panel.activeSelf == false)
         {
             panel.SetActive(true);
         }
@@ -91,7 +91,7 @@ public class UIDialoguePanel : MonoBehaviour
         foreach (char letter in text.ToCharArray())
         {
             descriptionText.text += letter;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.025f);
         }
     }
 

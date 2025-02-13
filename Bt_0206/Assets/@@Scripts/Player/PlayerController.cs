@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerController : MonoBehaviour
+public partial class PlayerController : MonoBehaviour
 {
     private static PlayerController _instance;
     public static PlayerController Instance { get { return _instance; } }
@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         UpdateState();
+        UpdateQuestRequirement();
     }
 
     private void FixedUpdate()
@@ -92,6 +93,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isFly", true);
             if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.z, 0))
             {
+                
                 animator.SetBool("isFlyMove", false);
             }
             else
@@ -146,7 +148,7 @@ public class PlayerController : MonoBehaviour
         isSleep = true;
         movement = Vector3.zero;
         yield return new WaitForSeconds(0.1f);
-        PopupUI.Instance?.OnPopupUI(PopupType.Sleep);
+        UIPanelManager.UIPopup.OnPopupUI(PopupType.Sleep);
         yield return new WaitForSeconds(sleepTime);
         isSleep = false;
     }
@@ -156,7 +158,7 @@ public class PlayerController : MonoBehaviour
         isTV = true;
         movement = Vector3.zero;
         yield return new WaitForSeconds(0.1f);
-        PopupUI.Instance?.OnPopupUI(PopupType.TV);
+        UIPanelManager.UIPopup.OnPopupUI(PopupType.TV);
         yield return new WaitForSeconds(tvTime);
         isTV = false;
     }
@@ -165,7 +167,7 @@ public class PlayerController : MonoBehaviour
     #region Event
     public void OnDamageByEvent()
     {
-        PopupUI.Instance?.OnPopupUI(PopupType.Damage);
+        UIPanelManager.UIPopup.OnPopupUI(PopupType.Damage);
     }
 
     public void OnDeadByEvent()
@@ -175,7 +177,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isDead", isDead);
         }
-        PopupUI.Instance?.OnPopupUI(PopupType.Dead);
+        UIPanelManager.UIPopup.OnPopupUI(PopupType.Dead);
     }
     #endregion
 }

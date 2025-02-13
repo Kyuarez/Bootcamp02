@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,8 +26,20 @@ public class QuestManager : MonoBehaviour
         }
 
         InitQuestList();
-        questID = 0;
-        isNewQuest = false;
+    }
+
+    private void Update()
+    {
+        if (currentQuest != null && true == currentQuest.questRequirement.IsReached())
+        {
+            //quest finished
+            if(true == currentQuest.isActive)
+            {
+                currentQuest.questRequirement.UnRegisterEvents();
+                UIPanelManager.UIToolBar.SetActiveQuestNewIcon(true);
+                currentQuest.isActive = false;
+            }
+        }
     }
 
     public QuestSO CurrentQuest
@@ -35,26 +48,9 @@ public class QuestManager : MonoBehaviour
         {
             return currentQuest;
         }
-    }
-
-    public bool IsNewQuest
-    {
-        get { return isNewQuest; }
-        set 
-        { 
-            if(value == true && isNewQuest != value)
-            {
-                isNewQuest = value;
-                UIPanelManager.UIToolBar.SetActiveQuestNewIcon(value);
-                return;
-            }
-
-            if(value == false && isNewQuest != value)
-            {
-                isNewQuest = value;
-                UIPanelManager.UIToolBar.SetActiveQuestNewIcon(value);
-                return;
-            }
+        set
+        {
+            currentQuest = value;
         }
     }
 
@@ -64,33 +60,62 @@ public class QuestManager : MonoBehaviour
 
         for (int i = 0; i < arr.Length; i++) 
         {
-            questList.Add(arr[i]);
+            questDict.Add(arr[i].questID ,arr[i]);
         }
 
         
     }
 
-    public void SetCurrentQuest()
+    public void SetCurrentQuest(int questID)
     {
-        currentQuest = questList[questID];
-        IsNewQuest = true;
+        if(currentQuest != null)
+        {
+            if(currentQuest.questID == questID)
+            {
+                return;
+            }
+            else
+            {
+                //25.02.13 @tk 일단 단일 퀘스트만 구현
+                return;
+            }
+        }
+
+        currentQuest = questDict[questID];
+        currentQuest.questRequirement.Initialize();
+        currentQuest.isActive = true;
+        UIPanelManager.UIToolBar.SetActiveQuestNewIcon(true);
+
     }
 
-    public void QuestTrigger()
+    public void QuestTrigger(int questID)
     {
-        if(currentQuest != null && (currentQuest.questID == questID))
+        if(false == questDict.ContainsKey(questID))
         {
             return;
         }
-        SetCurrentQuest();
+        SetCurrentQuest(questID);
+
+        if(true == currentQuest.isDialouge)
+        {
+            UIPanelManager.UIDialoguePanel?.OnDialoguePanel(currentQuest.questDialouge);
+        }
     }
 
-    private int questID;
+    public void QuestRequireUpdate(QuestRequireType type, int amount)
+    {
+        if (currentQuest == null)
+        {
+            return;
+        }
 
-    private bool isNewQuest;
+        OnRequireUpdated?.Invoke(type, amount);
+    }
 
+    public event Action<QuestRequireType, int> OnRequireUpdated;
+    
     private QuestSO currentQuest;
 
-    private List<QuestSO> questList = new List<QuestSO>();
+    private Dictionary<int, QuestSO> questDict = new Dictionary<int, QuestSO>();
 
 }

@@ -132,4 +132,11 @@ public enum PopupType
     Damage, //temp
 }
 
+public enum QuestRequireType
+{
+    Kill,
+    Collect,
+    Fly,
+
+}
 #endregion

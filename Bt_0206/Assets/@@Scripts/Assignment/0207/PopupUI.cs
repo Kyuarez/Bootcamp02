@@ -5,25 +5,21 @@ using UnityEngine.UI;
 
 namespace Bootcamp0207
 {
-    public class PopupUI : MonoBehaviour
+    public class UIPopup : MonoBehaviour
     {
         private float duration = 1.0f;
+        [SerializeField] private GameObject panel;
         [SerializeField] private Image popupBackground;
         [SerializeField] private TextMeshProUGUI popupText;
 
-        public static PopupUI Instance { get; private set; }
-
-        private void Awake()
+        private void Start()
         {
-            if (Instance == null)
-                Instance = this;
-            else
-                Destroy(gameObject);  // 중복 방지
             ResetPopupUI();
         }
 
         public void ResetPopupUI()
         {
+            panel.SetActive(false);
             popupBackground.color = new Color(0, 0, 0, 0);
             popupText.color = new Color(1, 1, 1, 0);
             popupText.text = string.Empty;
@@ -33,7 +29,7 @@ namespace Bootcamp0207
         {
             StopAllCoroutines();
             ResetPopupUI();
-
+            
             float delay = 0f;
             switch (type)
             {
@@ -57,8 +53,21 @@ namespace Bootcamp0207
                     break;
             }
 
+            panel.SetActive(true);
             StartCoroutine(CoOnPopupUI(delay));
 
+        }
+
+        /// <summary>
+        /// 퀘스트 reward 임시, 나중에 아이콘 필요
+        /// </summary>
+        public void OnPopupUI(string reward)
+        {
+            StopAllCoroutines();
+            ResetPopupUI();
+            popupText.text = reward;
+            panel.SetActive(true);
+            StartCoroutine(CoOnPopupUI(1.0f));
         }
 
         IEnumerator CoOnPopupUI(float delay)

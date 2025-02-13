@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3885cba205782cf4d822af22ee6c5da2, type: 3}
+  m_Name: Dialogue_Quest_0
+  m_EditorClassIdentifier: 
+  dialogueBundles:
+  - characterName: "\uC0AC\uB77C"
+    dialogueBundle:
+    - "\uC774\uBD10! \uAC70\uAE30 \uB108! \uB6B1\uB6B1\uD558\uACE0 \uB2E4\uB9AC \uC9E7\uC740
+      \uD55C\uC2EC\uD55C \uC6A9\uAC00\uB9AC\uC57C."
+    - "\uBB58 \uC544\uB2CC \uCC99\uD574? \uB108 \uBD80\uB978\uAC70 \uB9DE\uB2E4\uB2C8\uAE4C?"
+    - "\uC73C... \uB2E4\uB9AC\uB3C4 \uC9E7\uACE0, \uB6B1\uB6B1\uD558\uACE0, \uB0A0\uAC1C\uB3C4
+      \uCC38\uC0C8 \uB0A0\uAC1C\uB9CC\uD574\uC11C.."
+    - "(\uBE44\uC6C3\uC74C) \uB108... \uB0A0 \uC218 \uC788\uAE34 \uD55C\uAC70\uB2C8? "
+    - "\uC5B5\uC6B8\uD574? \uC5B5\uC6B8\uD558\uBA74 \uB0B4 \uB208 \uC55E\uC5D0\uC11C
+      \uB0A0\uC544\uBD10! \uADF8\uB7FC \uB0B4\uAC00 \uB3C8 \uC904\uAC8C!"
+    - "\uBD84\uBA85 \uC2E4\uD328\uD558\uACA0\uC9C0\uB9CC."
+    charactorImage: {fileID: 21300000, guid: c9f8a6b4428f87e40a064a741d32575f, type: 3}

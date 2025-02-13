@@ -9,9 +9,10 @@ public class QuestSO : ScriptableObject
     public QuestRequirementSO questRequirement;
     public QuestRewardSO questReward;
 
-    public bool isPreCondition;
+    public bool isActive; //현재 퀘스트 여부
 
-    
+    public bool isDialouge;
+    public DialogueDataSO questDialouge;
 }
 
 
@@ -21,6 +22,7 @@ public class QuestInfo
     public string questTitle;
     public string questClientName;
     public Sprite questClientSprite;
-    public string description;
+    [TextArea] public string questDesc;
+    [TextArea] public string questRequireDesc;
 
 }

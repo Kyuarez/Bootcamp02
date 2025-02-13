@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00e2f1e629c9817408d3761f034d9da3, type: 3}
   m_Name: Requirement_0
   m_EditorClassIdentifier: 
-  isSuccessed: 0
+  requireType: 2
+  requireAmount: 3
+  currentAmount: 0
