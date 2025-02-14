@@ -1,25 +1,24 @@
 using TMPro;
 using UnityEngine;
 
-public class UIDownloadPopup : MonoBehaviour
+public class UIDownloadPopup : TSingleton<UIDownloadPopup>
 {
     [SerializeField] private GameObject panel;
     [SerializeField] private TextMeshProUGUI popupText;
 
     public void OnDownloadPopup()
     {
-
-    }
-
-    private void SetDownloadPopup() 
-    {
+        if (panel.activeSelf == false) 
+        {
+            panel.SetActive(true);
+        }
 
     }
 
     #region OnClick
     public void OnClickYes()
     {
-
+        GoogleDriveManager.Instance.OnDownloadAnime();
         if (panel.activeSelf != false)
         {
             panel.SetActive(false);

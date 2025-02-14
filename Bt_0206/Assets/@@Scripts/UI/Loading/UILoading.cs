@@ -3,28 +3,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UILoading : MonoBehaviour
+public class UILoading : TSingleton<UILoading>
 {
-    private static UILoading _instance;
-
-    public static UILoading Instance 
-    {
-        get 
-        {
-            return _instance; 
-        }
-    }
-
 
     [SerializeField] private GameObject panel;
+    [SerializeField] private Image backgroundImage;
     [SerializeField] private Slider loadingSlider;
     [SerializeField] private TextMeshProUGUI loadingText;
 
-    private void Awake()
-    {
-        ResetUILoading();
-        _instance = this;
-    }
+    [SerializeField] private Sprite loadingBg;
+    [SerializeField] private Sprite downloadBg;
 
     public void ResetUILoading()
     {
@@ -37,15 +25,29 @@ public class UILoading : MonoBehaviour
         }
     }
 
-    public void OnUILoading(float progressValue)
+    public void OnUILoading(LoadingType loadingType, float progressValue)
     {
+        float uiProgress = (progressValue <= 0.5f) ? 0.5f : progressValue;
+        loadingSlider.value = uiProgress;
+        
+        switch (loadingType)
+        {
+            case LoadingType.Scene:
+                backgroundImage.sprite = loadingBg;
+                loadingText.text = string.Format("로딩 중...( {0}%)", Math.Round((uiProgress * 100), 2));
+                break;
+            case LoadingType.Download:
+                backgroundImage.sprite = downloadBg;
+                loadingText.text = string.Format("다운로드 중...( {0}%)", Math.Round((uiProgress * 100), 2));
+                break;
+            default:
+                backgroundImage.sprite = loadingBg;
+                break;
+        }
+        
         if(panel.activeSelf != true)
         {
             panel.SetActive(true);
         }
-
-        float uiProgress = (progressValue <= 0.5f) ? 0.5f : progressValue;
-        loadingSlider.value = uiProgress;
-        loadingText.text = string.Format("로딩 중...( {0}%)", Math.Round((uiProgress * 100), 2));
     }
 }

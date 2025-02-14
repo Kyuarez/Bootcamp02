@@ -41,17 +41,17 @@ namespace Bootcamp0214
 
         IEnumerator LoadSceneAsync()
         {
-            UILoading.Instance.OnUILoading(0f);
+            UILoading.Instance.OnUILoading(LoadingType.Scene, 0f);
 
             AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
             while (!asyncOperation.isDone)
             {
                 float progress = Mathf.Clamp01(asyncOperation.progress / 0.9f);
-                UILoading.Instance.OnUILoading(progress);
+                UILoading.Instance.OnUILoading(LoadingType.Scene,progress);
                 yield return null;
             }
 
-            UILoading.Instance.OnUILoading(1f);
+            UILoading.Instance.OnUILoading(LoadingType.Scene,1f);
             yield return new WaitForSeconds(1f);
             UILoading.Instance.ResetUILoading();
         }

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: sampleasset002
+  m_EditorClassIdentifier: 
+  m_GroupName: sampleasset002
+  m_GUID: fd5ea61c0ac9f624794b03dc0b3cdbaf
+  m_SerializeEntries:
+  - m_GUID: 030f516c90ec6fd4197e58f81b9e5ba4
+    m_Address: Assets/SampleBundle/Prefabs/GreenCircle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 983fcc571e39e924facabf71137065e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d26f0b20aa1da344eb65bb6454258010, type: 2}
+    - {fileID: 11400000, guid: 8ec34374c7029964ab2d00c8f5f11dd0, type: 2}

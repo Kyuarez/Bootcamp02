@@ -50,8 +50,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 3858487489902846185}
+  backgroundImage: {fileID: 1840529781570252366}
   loadingSlider: {fileID: 1786710667098595051}
   loadingText: {fileID: 264538017172748733}
+  loadingBg: {fileID: 21300000, guid: 14765d3cb2d661f4ab2107a4d8b83c72, type: 3}
+  downloadBg: {fileID: 21300000, guid: 8c34bfc30b286274fb0903a7d3cf868b, type: 3}
 --- !u!1 &2158348717089493225
 GameObject:
   m_ObjectHideFlags: 0

@@ -124,6 +124,12 @@ public enum BGMSoundType
     NightAmbient,
 }
 
+public enum LoadingType
+{
+    Scene,
+    Download,
+}
+
 public enum PopupType
 {
     Sleep,

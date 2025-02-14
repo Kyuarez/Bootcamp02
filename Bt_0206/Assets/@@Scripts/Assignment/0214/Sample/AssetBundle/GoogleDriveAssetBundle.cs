@@ -16,6 +16,7 @@ public class GoogleDriveAssetBundle : MonoBehaviour
 
     IEnumerator DownloadImage()
     {
+        UILoading.Instance.OnUILoading(LoadingType.Download, 0f);
         //해당 웹 주소로 리퀘스트 요청
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(imagePath);
         //리퀘스트 send 올때까지 대기
