@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.34f1
+CRC: 620227518
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b529c9539ba0318137a81a6e7da76800
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1b3e002d0fd7ea870df08727dcb6dcb2
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cfd907a577d48ba7f9bf98d77579862a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/SampleBundle/Prefabs/GreenCircle.prefab
+Dependencies:
+- C:/Users/user/Documents/GitHub/Bootcamp02/Bt_0206/./AssetBundle/sampleassetmat

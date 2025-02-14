@@ -21,14 +21,14 @@ namespace Bootcamp0214
 
         private void Update()
         {
-            if(true == Input.GetKeyDown(KeyCode.U))
-            {
-                SceneManager.LoadScene(1);
-            }
-            if(true == Input.GetKeyDown(KeyCode.I))
-            {
-                SceneManager.LoadScene(1, LoadSceneMode.Additive);
-            }
+            //if(true == Input.GetKeyDown(KeyCode.U))
+            //{
+            //    SceneManager.LoadScene(1);
+            //}
+            //if(true == Input.GetKeyDown(KeyCode.I))
+            //{
+            //    SceneManager.LoadScene(1, LoadSceneMode.Additive);
+            //}
             if(true == Input.GetKeyDown(KeyCode.O))
             {
                 StartCoroutine(LoadSceneAsync());
@@ -41,7 +41,19 @@ namespace Bootcamp0214
 
         IEnumerator LoadSceneAsync()
         {
-            yield return SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+            UILoading.Instance.OnUILoading(0f);
+
+            AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+            while (!asyncOperation.isDone)
+            {
+                float progress = Mathf.Clamp01(asyncOperation.progress / 0.9f);
+                UILoading.Instance.OnUILoading(progress);
+                yield return null;
+            }
+
+            UILoading.Instance.OnUILoading(1f);
+            yield return new WaitForSeconds(1f);
+            UILoading.Instance.ResetUILoading();
         }
     }
 

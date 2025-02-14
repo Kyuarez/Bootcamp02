@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.34f1
+CRC: 2839833596
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 53be257971ebc2943c615e4a98808e67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 734f817b0aba7780e9fe3eae08f201ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: acd1a4fba8cb3c3525298dce8941d928
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/SampleBundle/Prefabs/RedSquare.prefab
+Dependencies:
+- C:/Users/user/Documents/GitHub/Bootcamp02/Bt_0206/./AssetBundle/sampleassetmat

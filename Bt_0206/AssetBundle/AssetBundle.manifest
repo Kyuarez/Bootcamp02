@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.34f1
+CRC: 318301754
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sampleasset001
+      Dependencies:
+        Dependency_0: sampleassetmat
+    Info_1:
+      Name: sampleasset002
+      Dependencies:
+        Dependency_0: sampleassetmat
+    Info_2:
+      Name: sampleasset003
+      Dependencies:
+        Dependency_0: sampleassetmat
+    Info_3:
+      Name: sampleassetmat
+      Dependencies: {}

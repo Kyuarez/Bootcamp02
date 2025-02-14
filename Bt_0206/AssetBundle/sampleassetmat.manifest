@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.34f1
+CRC: 773642939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf2358cdd505f90e71872baeb8e613d3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4afb0d898c1c22a5e88248733bd69457
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d984bb3f98ac5935e73af4f7324f4a90
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/SampleBundle/Material/mat01.mat
+- Assets/SampleBundle/Material/mat03.mat
+- Assets/SampleBundle/Material/mat04.mat
+- Assets/SampleBundle/Material/mat02.mat
+Dependencies: []
