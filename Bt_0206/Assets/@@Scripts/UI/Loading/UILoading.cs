@@ -27,25 +27,29 @@ public class UILoading : TSingleton<UILoading>
 
     public void OnUILoading(LoadingType loadingType, float progressValue)
     {
-        float uiProgress = (progressValue <= 0.5f) ? 0.5f : progressValue;
-        loadingSlider.value = uiProgress;
+        float uiProgress; 
         
         switch (loadingType)
         {
             case LoadingType.Scene:
+                uiProgress = (progressValue <= 0.5f) ? 0.5f : progressValue;
                 backgroundImage.sprite = loadingBg;
                 loadingText.text = string.Format("로딩 중...( {0}%)", Math.Round((uiProgress * 100), 2));
                 break;
             case LoadingType.Download:
+                uiProgress = progressValue;
                 backgroundImage.sprite = downloadBg;
                 loadingText.text = string.Format("다운로드 중...( {0}%)", Math.Round((uiProgress * 100), 2));
                 break;
             default:
+                uiProgress = progressValue;
                 backgroundImage.sprite = loadingBg;
                 break;
         }
-        
-        if(panel.activeSelf != true)
+
+        loadingSlider.value = uiProgress;
+
+        if (panel.activeSelf != true)
         {
             panel.SetActive(true);
         }
