@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\bin\Debug\net8.0\TKServer.exe
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\bin\Debug\net8.0\TKServer.deps.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\bin\Debug\net8.0\TKServer.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\bin\Debug\net8.0\TKServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\bin\Debug\net8.0\TKServer.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.sourcelink.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\refint\TKServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\TKServer.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TKServer\obj\Debug\net8.0\ref\TKServer.dll
