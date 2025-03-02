@@ -3,8 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TKServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85E981D1-5485-430D-A9E3-BE4B98CD1D67}|TKServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tkserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85E981D1-5485-430D-A9E3-BE4B98CD1D67}|TKServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\dedicatedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +24,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TKServer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TKServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwDAAAAAvAAAAAAAAAA==",
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Client.cs",
+              "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\Client.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Client.cs",
+              "RelativeToolTip": "..\\TK_DedicatedServer\\Client.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T04:59:30.686Z",
+              "WhenOpened": "2025-02-20T13:26:42.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DedicatedServer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\DedicatedServer.cs",
+              "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\DedicatedServer.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\DedicatedServer.cs",
+              "RelativeToolTip": "..\\TK_DedicatedServer\\DedicatedServer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:08:47.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Program.cs",
+              "RelativeToolTip": "..\\TK_DedicatedServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:08:01.493Z",
               "EditorCaption": ""
             }
           ]

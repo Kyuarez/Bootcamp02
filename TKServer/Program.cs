@@ -32,15 +32,15 @@ namespace TKServer
 
             while (true)
             {
-                TcpClient tcpServer = listener.AcceptTcpClient();
+                TcpClient tcpClient = listener.AcceptTcpClient();
                 lock (lockObject)
                 {
-                    clients.Add(tcpServer);
+                    clients.Add(tcpClient);
                 }
 
                 Thread clientThread = new Thread(GetHandleClient);
                 clientThread.IsBackground = true;
-                clientThread.Start(tcpServer);
+                clientThread.Start(tcpClient);
             }
         }
 

@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\bin\Debug\net8.0\TK_DedicatedServer.exe
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\bin\Debug\net8.0\TK_DedicatedServer.deps.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\bin\Debug\net8.0\TK_DedicatedServer.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\bin\Debug\net8.0\TK_DedicatedServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\bin\Debug\net8.0\TK_DedicatedServer.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.sourcelink.json
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\refint\TK_DedicatedServer.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\TK_DedicatedServer.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\TK_DedicatedServer\obj\Debug\net8.0\ref\TK_DedicatedServer.dll
