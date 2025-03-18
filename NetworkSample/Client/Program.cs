@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using TKPacket;
+using Newtonsoft.Json;
 
 namespace Client
 {
@@ -10,7 +11,65 @@ namespace Client
     {
         static void Main(string[] args)
         {
+            string imagePath = "./Data/ImageCopy.webp";
 
+            Console.Title = "Client";
+            Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("192.168.0.4"), 4000);
+            server.Connect(iPEndPoint);
+            Console.WriteLine("서버 연결 성공~!");
+
+            //recv
+            byte[] sizeBuffer = new byte[8];
+            server.Receive(sizeBuffer, 0, sizeBuffer.Length, SocketFlags.None);
+            long fileSize = BitConverter.ToInt64(sizeBuffer, 0);
+
+            byte[] recvBuffer = new byte[4096];
+            int recvLength;
+            long totalReceived = 0;
+            using (FileStream fs = new FileStream(imagePath, FileMode.Create, FileAccess.Write))
+            {
+                while (totalReceived < fileSize &&
+                       (recvLength = server.Receive(recvBuffer, 0, recvBuffer.Length, SocketFlags.None)) > 0)
+                {
+                    fs.Write(recvBuffer, 0, recvLength);
+                    totalReceived += recvLength;
+                }
+            }
+
+            Console.WriteLine("전송 완료");
+            Console.ReadKey();
+            server.Close();
+
+        }
+
+        public static void Assign0318_1()
+        {
+            Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("192.168.0.4"), 4000);
+            server.Connect(iPEndPoint);
+            Console.WriteLine("서버 연결 성공~!");
+
+            //send
+            byte[] sendBuffer = new byte[1024];
+            string sendMessage = "안녕하세요!";
+            string sendJson = JsonConvert.SerializeObject(sendMessage);
+            sendBuffer = Encoding.UTF8.GetBytes(sendJson);
+            int sendLength = server.Send(sendBuffer, 0, sendBuffer.Length, SocketFlags.None);
+
+            //recv
+            byte[] recvBuffer = new byte[1024];
+            int recvLength = server.Receive(recvBuffer, 0, recvBuffer.Length, SocketFlags.None);
+            string recvJson = Encoding.UTF8.GetString(recvBuffer);
+            string recvMessage = JsonConvert.DeserializeObject<string>(recvJson);
+            Console.WriteLine($"[서버] : {recvMessage}");
+
+            Console.ReadKey();
+            server.Close();
+        }
+
+        public static void SimpleClient()
+        {
             string[] oper = new string[]
             {
                 "+",
@@ -22,7 +81,6 @@ namespace Client
 
             for (int i = 0; i < 10; i++)
             {
-                Console.Title = "Client";
 
                 Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Parse("192.168.0.4"), 4000);
@@ -30,7 +88,7 @@ namespace Client
                 Console.WriteLine("[클라이언트] 연결 성공!");
 
                 Random rand = new Random();
-                var tkPacket = new TKPacketDoubleOperation() 
+                var tkPacket = new TKPacketDoubleOperation()
                 {
                     PacketID = i,
                     Operand1 = rand.Next(0, 10000),

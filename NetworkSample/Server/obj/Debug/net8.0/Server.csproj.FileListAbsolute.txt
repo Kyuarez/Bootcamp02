@@ -23,3 +23,4 @@ C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\Server\bin\Debug\net8.0\
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\Server\bin\Debug\net8.0\TKPacket.pdb
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\Server\bin\Debug\net8.0\Newtonsoft.Json.dll

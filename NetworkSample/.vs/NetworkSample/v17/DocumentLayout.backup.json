@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,22 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T06:04:47.381Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -46,7 +32,7 @@
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T05:32:24.093Z",
               "IsPinned": true,
@@ -55,12 +41,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:04:47.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TKPacket.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
               "RelativeDocumentMoniker": "TKPacket\\TKPacket.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs*",
-              "RelativeToolTip": "TKPacket\\TKPacket.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBgAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
+              "RelativeToolTip": "TKPacket\\TKPacket.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T08:08:26.979Z",
               "EditorCaption": ""
