@@ -11,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\server\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -40,9 +48,23 @@
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T05:32:24.093Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assign.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
+              "RelativeDocumentMoniker": "Server\\Assign.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
+              "RelativeToolTip": "Server\\Assign.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAQwKkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:50:21.778Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -54,22 +76,24 @@
               "RelativeDocumentMoniker": "Client\\Assign.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Assign.cs",
               "RelativeToolTip": "Client\\Assign.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwJIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T01:52:25.783Z",
+              "WhenOpened": "2025-03-18T01:57:30.086Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Assign.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
-              "RelativeDocumentMoniker": "Server\\Assign.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
-              "RelativeToolTip": "Server\\Assign.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Title": "TKPacket.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
+              "RelativeDocumentMoniker": "TKPacket\\TKPacket.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
+              "RelativeToolTip": "TKPacket\\TKPacket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T01:50:21.778Z",
+              "WhenOpened": "2025-03-17T08:08:26.979Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -80,22 +104,35 @@
               "RelativeDocumentMoniker": "Client\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
               "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T06:04:47.381Z",
+              "WhenOpened": "2025-03-18T08:40:03.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TKPacket.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
-              "RelativeDocumentMoniker": "TKPacket\\TKPacket.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
-              "RelativeToolTip": "TKPacket\\TKPacket.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UDPServer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\UDPServer.cs",
+              "RelativeDocumentMoniker": "Server\\UDPServer.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\UDPServer.cs",
+              "RelativeToolTip": "Server\\UDPServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:08:26.979Z",
+              "WhenOpened": "2025-03-18T05:27:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UDPClient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\UDPClient.cs",
+              "RelativeDocumentMoniker": "Client\\UDPClient.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\UDPClient.cs",
+              "RelativeToolTip": "Client\\UDPClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:27:38.227Z",
               "EditorCaption": ""
             }
           ]

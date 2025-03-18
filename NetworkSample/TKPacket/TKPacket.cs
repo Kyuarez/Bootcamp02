@@ -13,7 +13,13 @@ namespace TKPacket
     {
         [Key(0)]
         public int PacketID { get; set; }
+    }
 
+    [MessagePackObject]
+    public class TKPacketChat : TKPacket
+    {
+        [Key(1)]
+        public string Chat { get; set; }
     }
 
     [MessagePackObject]
