@@ -150,10 +150,12 @@ namespace Server
                             else if(code.CompareTo("Chat") == 0)
                             {
                                 string message = clientData.Value<String>("message");
+                                string id = clientData.Value<String>("id");
                                 Console.WriteLine(message);
 
                                 JObject result = new JObject();
                                 result.Add("code", "Chat");
+                                result.Add("id", id);
                                 result.Add("message", message);
 
                                 lock (_lock)

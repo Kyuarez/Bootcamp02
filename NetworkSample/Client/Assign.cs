@@ -104,10 +104,11 @@ namespace Client
             {
                 string InputChat;
                 Console.Write("채팅 : ");
-                InputChat = Console.ReadLine(); 
+                InputChat = Console.ReadLine();     
             
                 JObject resultObject = new JObject();
                 resultObject.Add("code", "Chat");
+                resultObject.Add("id", "console");
                 resultObject.Add("message", InputChat);
                 byte[] message = Encoding.UTF8.GetBytes(resultObject.ToString());
                 ushort length = (ushort)message.Length;

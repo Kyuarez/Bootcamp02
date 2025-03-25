@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TKServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE35AA2D-4A52-4F47-A5DC-41535A263FEE}|..\\MMO2D_Client\\MMO2D_Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\mmo2d_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE35AA2D-4A52-4F47-A5DC-41535A263FEE}|..\\MMO2D_Client\\MMO2D_Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\mmo2d_client\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,24 +25,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graphic.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Graphic.cs",
+              "RelativeDocumentMoniker": "..\\MMO2D_Client\\Graphic.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Graphic.cs",
+              "RelativeToolTip": "..\\MMO2D_Client\\Graphic.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:10:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MMO2D_Client\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Program.cs",
+              "RelativeToolTip": "..\\MMO2D_Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:07:32.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Client.cs",
               "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\Client.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Client.cs",
               "RelativeToolTip": "..\\TK_DedicatedServer\\Client.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T13:26:42.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DedicatedServer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\DedicatedServer.cs",
               "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\DedicatedServer.cs",
@@ -44,12 +76,11 @@
               "RelativeToolTip": "..\\TK_DedicatedServer\\DedicatedServer.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwDkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:08:47.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:08:47.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Program.cs",
               "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\Program.cs",
@@ -57,8 +88,7 @@
               "RelativeToolTip": "..\\TK_DedicatedServer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:08:01.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:08:01.493Z"
             }
           ]
         }

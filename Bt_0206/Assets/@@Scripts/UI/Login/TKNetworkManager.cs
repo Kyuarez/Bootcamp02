@@ -27,10 +27,11 @@ public class SignupPacket
 public class ChatPacket
 {
     public string code;
+    public string id;
     public string message;
 }
 
-public class TKNetworkManager : TSingleton<TKNetworkManager>
+public class TKNetworkManager : TSingleton<TKNetworkManager>    
 {
     private Socket serverSocket;
     private IPEndPoint serverEndPoint;
@@ -66,8 +67,10 @@ public class TKNetworkManager : TSingleton<TKNetworkManager>
 
             if(code == "Chat")
             {
+                string id = clientData.Value<String>("id");
                 string message = clientData.Value<String>("message");
-                chatQueue.Enqueue(message);
+                string data = $"[{id}] : {message}";
+                chatQueue.Enqueue(data);
             }
 
             Debug.Log(jsonString);

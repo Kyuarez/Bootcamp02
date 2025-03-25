@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TKServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE35AA2D-4A52-4F47-A5DC-41535A263FEE}|..\\MMO2D_Client\\MMO2D_Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\mmo2d_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE35AA2D-4A52-4F47-A5DC-41535A263FEE}|..\\MMO2D_Client\\MMO2D_Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\mmo2d_client\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E0156B0-7FDA-4AF4-B457-6DB5018F9AFA}|..\\TK_DedicatedServer\\TK_DedicatedServer.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\tk_dedicatedserver\\dedicatedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -25,11 +25,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Graphic.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Graphic.cs",
               "RelativeDocumentMoniker": "..\\MMO2D_Client\\Graphic.cs",
@@ -37,25 +37,24 @@
               "RelativeToolTip": "..\\MMO2D_Client\\Graphic.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvwkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T11:10:17.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T11:10:17.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\MMO2D_Client\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\MMO2D_Client\\Program.cs",
               "RelativeToolTip": "..\\MMO2D_Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T11:07:32.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\TK_DedicatedServer\\Client.cs",
               "RelativeDocumentMoniker": "..\\TK_DedicatedServer\\Client.cs",
