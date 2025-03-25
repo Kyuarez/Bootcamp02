@@ -13,14 +13,19 @@ namespace Server
         static void Main(string[] args)
         {
             Console.Title = "Server";
-
+            ByteOrderPollingServer();
+        }
+        
+        
+        static void ServerWithPacket()
+        {
             Socket listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPEndPoint listenEndPoint = new IPEndPoint(IPAddress.Any, 4000);
             listenSocket.Bind(listenEndPoint);
             listenSocket.Listen(10);
 
             bool isRunning = true;
-            while (isRunning) 
+            while (isRunning)
             {
                 Socket clientSocket = listenSocket.Accept();
 
@@ -38,9 +43,8 @@ namespace Server
 
                 clientSocket.Close();
             }
-            
+
             listenSocket.Close();
         }
-        
     }
 }

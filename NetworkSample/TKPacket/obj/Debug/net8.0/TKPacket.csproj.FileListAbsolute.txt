@@ -19,3 +19,6 @@ C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\obj\Debug\net8.
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\obj\Debug\net8.0\TKPacket.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\obj\Debug\net8.0\ref\TKPacket.dll
 C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKPacket\bin\Debug\net8.0\MySqlConnector.dll

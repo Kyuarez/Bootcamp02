@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\bin\Debug\net8.0\TKThread.exe
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\bin\Debug\net8.0\TKThread.deps.json
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\bin\Debug\net8.0\TKThread.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\bin\Debug\net8.0\TKThread.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\bin\Debug\net8.0\TKThread.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.sourcelink.json
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\refint\TKThread.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\TKThread.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\NetworkSample\TKThread\obj\Debug\net8.0\ref\TKThread.dll

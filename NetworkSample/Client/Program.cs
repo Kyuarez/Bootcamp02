@@ -11,19 +11,23 @@ namespace Client
     {
         static void Main(string[] args)
         {
-
             Console.Title = "Client";
+            //InputLoginSystem();
+            ClientWithThread();
+        }
 
+        static void ClientWithPacket() 
+        {
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 4000);
             serverSocket.Connect(serverEndPoint);
 
             bool isRunning = true;
-            while (isRunning) 
+            while (isRunning)
             {
                 string message = Console.ReadLine();
 
-                if(message.CompareTo("Exit") == 0)
+                if (message.CompareTo("Exit") == 0)
                 {
                     isRunning = false;
                 }
@@ -36,11 +40,11 @@ namespace Client
                 int packetSize = packet.Length;
 
                 int sendLength = serverSocket.Send(packet, 0, packetSize, SocketFlags.None);
-                if(sendLength < 0)
+                if (sendLength < 0)
                 {
                     isRunning = false;
                 }
-                else if(sendLength > 0)
+                else if (sendLength > 0)
                 {
                     Console.Clear();
                 }
