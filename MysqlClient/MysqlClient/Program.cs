@@ -30,16 +30,16 @@ namespace MysqlClient
                 }
                 dataReader.Close();
 
-                    //회원가입
-                    MySqlCommand assignCommand = new MySqlCommand();
-                    assignCommand.Connection = mysqlConnection;
-                    assignCommand.CommandText = "insert into users (user_id, user_password, name, email) values ( @user_id, @user_password, @name, @email)";
-                    assignCommand.Prepare();
-                    assignCommand.Parameters.AddWithValue("@user_id", "abc001");
-                    assignCommand.Parameters.AddWithValue("@user_password", "2855");
-                    assignCommand.Parameters.AddWithValue("@name", "신지용");
-                    assignCommand.Parameters.AddWithValue("@email", "abc001@naver.com");
-                    assignCommand.ExecuteNonQuery();
+                //회원가입
+                MySqlCommand assignCommand = new MySqlCommand();
+                assignCommand.Connection = mysqlConnection;
+                assignCommand.CommandText = "insert into users (user_id, user_password, name, email) values ( @user_id, @user_password, @name, @email)";
+                assignCommand.Prepare();
+                assignCommand.Parameters.AddWithValue("@user_id", "abc001");
+                assignCommand.Parameters.AddWithValue("@user_password", "2855");
+                assignCommand.Parameters.AddWithValue("@name", "신지용");
+                assignCommand.Parameters.AddWithValue("@email", "abc001@naver.com");
+                assignCommand.ExecuteNonQuery();
 
             }
             catch (Exception ex)

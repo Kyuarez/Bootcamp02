@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FCDCEE5-008D-4DA0-8384-FC969FF0DE0B}|Server\\Server.csproj|solutionrelative:server\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E547372A-4934-4F57-96BD-B96BCD87CB1B}|TKPacket\\TKPacket.csproj|solutionrelative:tkpacket\\tkpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\clientwithsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,8 +59,7 @@
               "ViewState": "AgIAABsAAAAAAAAAAAAYwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T05:32:24.093Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -70,11 +69,10 @@
               "RelativeDocumentMoniker": "Server\\Assign.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
               "RelativeToolTip": "Server\\Assign.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAvwFQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwJMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T01:50:21.778Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -84,7 +82,7 @@
               "RelativeDocumentMoniker": "Client\\Assign.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Assign.cs",
               "RelativeToolTip": "Client\\Assign.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T01:57:30.086Z",
               "IsPinned": true,
@@ -92,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TKPacket.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
               "RelativeDocumentMoniker": "TKPacket\\TKPacket.cs",
@@ -100,12 +98,11 @@
               "RelativeToolTip": "TKPacket\\TKPacket.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:27:27.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T08:27:27.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "Client\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T06:25:54.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T06:25:54.284Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "Client\\ClientWithSQL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T06:06:40.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T06:06:40.971Z"
             },
             {
               "$type": "Document",
@@ -139,8 +134,7 @@
               "RelativeToolTip": "Server\\ServerWithPacket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:19:56.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T00:19:56.478Z"
             },
             {
               "$type": "Document",
@@ -152,8 +146,7 @@
               "RelativeToolTip": "Client\\ClientWithPacket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:19:46.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T00:19:46.49Z"
             },
             {
               "$type": "Document",
@@ -165,8 +158,7 @@
               "RelativeToolTip": "TKThread\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T03:41:18.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T03:41:18.353Z"
             }
           ]
         }
