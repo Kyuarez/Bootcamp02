@@ -6,9 +6,10 @@ namespace algo0401
 {
     public partial class Program
     {
+
         static void Main(string[] args)
         {
-            
+            MergeSort01();
         }
 
         public static int Fibo(int n)
