@@ -134,4 +134,21 @@ namespace algo0407
             }
         }
     }
+
+    public class TKLinkedList<T>
+    {
+        public TKLinkedList() 
+        {
+
+        }
+    }
+
+    public class TKLinkedListNode<T>
+    {
+        public T Item;
+        public TKLinkedListNode<T> Previous;
+        public TKLinkedListNode<T> Next;
+
+
+    }
 }

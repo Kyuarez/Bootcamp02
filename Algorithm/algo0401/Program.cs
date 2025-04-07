@@ -9,38 +9,11 @@ namespace algo0401
 
         static void Main(string[] args)
         {
-            MergeSort01();
-        }
-
-        public static int Fibo(int n)
-        {
-            if(n == 0)
-            {
-                return 0;
-            }
-            if (n == 1)
-            {
-                return 1;
-            }
-
-            return Fibo(n - 2) + Fibo(n - 1);
-        }
-
+            //MergeSort01();
         
-        public static long FiboDynamic(int n, ref long[] memo)
-        {
-            if (n == 0) return 0;
-            if (n == 1) return 1;
-
-            if (memo[n] != 0)
-            {
-                return memo[n];
-            }
-
-            memo[n] = FiboDynamic(n - 2, ref memo) + FiboDynamic(n - 1, ref memo);
-            return memo[n];
-        }
             
+        }
+
 
         public static void WriteRecursive(int start, int maxCount)
         {

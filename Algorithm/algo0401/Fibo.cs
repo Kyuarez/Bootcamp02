@@ -8,12 +8,11 @@ namespace algo0401
 {
     public partial class Program
     {
-        public static void Hanoi()
+        public static void AlgoFibo01()
         {
-            int plateCount = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            
 
-            //Stack<int> poleOne = new Stack<int>();
         }
-
     }
 }
