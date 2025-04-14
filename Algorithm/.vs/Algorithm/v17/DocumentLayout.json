@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj10866.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj10866.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj9012.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj9012.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj4949.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj4949.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj2164.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj2164.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj1966.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj1966.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj1874.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj1874.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj18258.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj18258.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj11866.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj11866.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\fibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\fibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj10828.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj10828.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\hanoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\hanoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj10845.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj10845.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\mergesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\mergesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0414\\bj10773.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9531CC54-56F4-4832-882C-D998E0F63D80}|algo0414\\algo0414.csproj|solutionrelative:algo0414\\bj10773.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\recursivemiddleschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\recursivemiddleschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\routerinstall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\routerinstall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\keylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +71,36 @@
       "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\cuttree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\cuttree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\linearlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\linearlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\searchnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\searchnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0407\\findnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363BC93B-B4D5-4C43-B9CB-9D668F94A572}|algo0407\\algo0407.csproj|solutionrelative:algo0407\\findnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\hanoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\hanoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\algorithm\\algo0401\\mergesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD3203F-BF67-4688-A513-B46C00C15AE8}|algo0401\\algo0401.csproj|solutionrelative:algo0401\\mergesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,61 +110,294 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Fibo.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Fibo.cs",
               "RelativeDocumentMoniker": "algo0401\\Fibo.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Fibo.cs",
               "RelativeToolTip": "algo0401\\Fibo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:48:48.48Z",
+              "WhenOpened": "2025-04-08T10:59:12.251Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BJ10866.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10866.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ10866.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10866.cs",
+              "RelativeToolTip": "algo0414\\BJ10866.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwE4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:43:29.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "KeyLogger.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\KeyLogger.cs",
-              "RelativeDocumentMoniker": "algo0407\\KeyLogger.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\KeyLogger.cs",
-              "RelativeToolTip": "algo0407\\KeyLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAlAAAAAAAAAA==",
+              "Title": "BJ1966.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ1966.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ1966.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ1966.cs",
+              "RelativeToolTip": "algo0414\\BJ1966.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:47:47.684Z",
+              "WhenOpened": "2025-04-14T07:54:15.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BJ11866.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ11866.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ11866.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ11866.cs",
+              "RelativeToolTip": "algo0414\\BJ11866.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:41:03.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BJ2164.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ2164.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ2164.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ2164.cs",
+              "RelativeToolTip": "algo0414\\BJ2164.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:24:07.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BJ18258.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ18258.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ18258.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ18258.cs",
+              "RelativeToolTip": "algo0414\\BJ18258.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:01:00.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BJ10845.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10845.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ10845.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10845.cs",
+              "RelativeToolTip": "algo0414\\BJ10845.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAwwE0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:02:42.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "BJ1874.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ1874.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ1874.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ1874.cs",
+              "RelativeToolTip": "algo0414\\BJ1874.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwCsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T03:31:25.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BJ4949.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ4949.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ4949.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ4949.cs",
+              "RelativeToolTip": "algo0414\\BJ4949.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T03:08:00.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BJ9012.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ9012.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ9012.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ9012.cs",
+              "RelativeToolTip": "algo0414\\BJ9012.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:30:10.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BJ10773.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10773.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ10773.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10773.cs",
+              "RelativeToolTip": "algo0414\\BJ10773.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:54:53.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BJ10828.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10828.cs",
+              "RelativeDocumentMoniker": "algo0414\\BJ10828.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\BJ10828.cs",
+              "RelativeToolTip": "algo0414\\BJ10828.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:23:47.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\Program.cs",
+              "RelativeDocumentMoniker": "algo0414\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0414\\Program.cs",
+              "RelativeToolTip": "algo0414\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:19:28.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RouterInstall.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\RouterInstall.cs",
+              "RelativeDocumentMoniker": "algo0407\\RouterInstall.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\RouterInstall.cs",
+              "RelativeToolTip": "algo0407\\RouterInstall.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:31:08.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CutTree.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\CutTree.cs",
+              "RelativeDocumentMoniker": "algo0407\\CutTree.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\CutTree.cs",
+              "RelativeToolTip": "algo0407\\CutTree.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:30:44.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Editor.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\Editor.cs",
               "RelativeDocumentMoniker": "algo0407\\Editor.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\Editor.cs",
               "RelativeToolTip": "algo0407\\Editor.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:26:11.233Z"
+              "WhenOpened": "2025-04-13T23:30:44.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "KeyLogger.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\KeyLogger.cs",
+              "RelativeDocumentMoniker": "algo0407\\KeyLogger.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\KeyLogger.cs",
+              "RelativeToolTip": "algo0407\\KeyLogger.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:30:43.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Program.cs",
+              "RelativeDocumentMoniker": "algo0401\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Program.cs",
+              "RelativeToolTip": "algo0401\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T00:08:13.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FindNumber.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\FindNumber.cs",
+              "RelativeDocumentMoniker": "algo0407\\FindNumber.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\FindNumber.cs",
+              "RelativeToolTip": "algo0407\\FindNumber.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwFsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:58:47.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchNumber.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\SearchNumber.cs",
+              "RelativeDocumentMoniker": "algo0407\\SearchNumber.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\SearchNumber.cs",
+              "RelativeToolTip": "algo0407\\SearchNumber.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:34:06.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LinearList.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\LinearList.cs",
+              "RelativeDocumentMoniker": "algo0407\\LinearList.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\LinearList.cs",
+              "RelativeToolTip": "algo0407\\LinearList.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:24:57.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\Program.cs",
               "RelativeDocumentMoniker": "algo0407\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0407\\Program.cs",
               "RelativeToolTip": "algo0407\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T07:25:51.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "Hanoi.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Hanoi.cs",
               "RelativeDocumentMoniker": "algo0401\\Hanoi.cs",
@@ -104,12 +405,11 @@
               "RelativeToolTip": "algo0401\\Hanoi.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:03:42.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T07:03:42.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "MergeSort.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\MergeSort.cs",
               "RelativeDocumentMoniker": "algo0401\\MergeSort.cs",
@@ -117,33 +417,19 @@
               "RelativeToolTip": "algo0401\\MergeSort.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T02:36:58.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T02:36:58.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "RecursiveMiddleSchool.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\RecursiveMiddleSchool.cs",
               "RelativeDocumentMoniker": "algo0401\\RecursiveMiddleSchool.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\RecursiveMiddleSchool.cs",
               "RelativeToolTip": "algo0401\\RecursiveMiddleSchool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T06:41:18.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Program.cs",
-              "RelativeDocumentMoniker": "algo0401\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\Algorithm\\algo0401\\Program.cs",
-              "RelativeToolTip": "algo0401\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T00:08:13.372Z",
               "EditorCaption": ""
             }
           ]
