@@ -32,7 +32,7 @@ namespace algo0414
                 Array.Reverse(orderData);
                 Queue<int> orderQueue = new Queue<int>(orderData);
 
-                //Calc
+                //Calc : 몇 번째에 출력했지?
                 while (pageQueue.Count > 0) 
                 {
                     if(pageQueue.Peek() == orderQueue.Peek())

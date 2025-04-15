@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TKPacket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702952d2d82f5c31e4772d29189082a8157a7558")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beffbc2eb59e67a2b0599ffd24de93a8cc35f039")]
 [assembly: System.Reflection.AssemblyProductAttribute("TKPacket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TKPacket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{314CDADE-73F6-47EE-8991-ED4BD931DE42}|TCP_Chapter2\\TCP_Chapter2.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\tcp_chapter2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314CDADE-73F6-47EE-8991-ED4BD931DE42}|TCP_Chapter2\\TCP_Chapter2.csproj|solutionrelative:tcp_chapter2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|c:\\users\\user\\documents\\github\\bootcamp02\\networksample\\client\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAEB5D6-95F6-40FB-B24A-5BE8B7CB0478}|Client\\Client.csproj|solutionrelative:client\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
@@ -63,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Assign.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\Assign.cs",
               "RelativeDocumentMoniker": "Server\\Assign.cs",
@@ -72,18 +76,17 @@
               "ViewState": "AgIAABMAAAAAAAAAAAAIwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T01:50:21.778Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Assign.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Assign.cs",
               "RelativeDocumentMoniker": "Client\\Assign.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Assign.cs",
               "RelativeToolTip": "Client\\Assign.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAIgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwIgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T01:57:30.086Z",
               "IsPinned": true,
@@ -91,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TCP_Chapter2\\Program.cs",
+              "RelativeDocumentMoniker": "TCP_Chapter2\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TCP_Chapter2\\Program.cs",
+              "RelativeToolTip": "TCP_Chapter2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:59:15.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TKPacket.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKPacket\\TKPacket.cs",
               "RelativeDocumentMoniker": "TKPacket\\TKPacket.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClientWithSQL.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\ClientWithSQL.cs",
               "RelativeDocumentMoniker": "Client\\ClientWithSQL.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServerWithPacket.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Server\\ServerWithPacket.cs",
               "RelativeDocumentMoniker": "Server\\ServerWithPacket.cs",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ClientWithPacket.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\Client\\ClientWithPacket.cs",
               "RelativeDocumentMoniker": "Client\\ClientWithPacket.cs",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Bootcamp02\\NetworkSample\\TKThread\\Program.cs",
               "RelativeDocumentMoniker": "TKThread\\Program.cs",

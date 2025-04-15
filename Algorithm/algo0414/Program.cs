@@ -17,18 +17,20 @@
             //BJ2164();
             //BJ11866();
             //BJ1966();
-            BJ10866();
-        }
+            //BJ10866();
 
-        //커스텀 스택 구현(선형)
-        public class TKLinearStack
-        {
-
-        }
-
-        public class TKConnectStack
-        {
-
+            //Test
+            TKCirQueue testQueue = new TKCirQueue(5);
+            testQueue.Enqueue(1);
+            testQueue.Enqueue(2);
+            testQueue.Enqueue(3);
+            testQueue.PrintQueue();
+            testQueue.Dequeue();
+            testQueue.Enqueue(4);
+            testQueue.Enqueue(5);
+            testQueue.Enqueue(6);
+            testQueue.Enqueue(7);
+            testQueue.PrintQueue();
         }
     }
 }

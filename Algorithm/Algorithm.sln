@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo0407", "algo0407\algo04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo0414", "algo0414\algo0414.csproj", "{9531CC54-56F4-4832-882C-D998E0F63D80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo0415", "algo0415\algo0415.csproj", "{55177019-DD5E-4A0B-BDC2-A76270226F54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9531CC54-56F4-4832-882C-D998E0F63D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9531CC54-56F4-4832-882C-D998E0F63D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9531CC54-56F4-4832-882C-D998E0F63D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55177019-DD5E-4A0B-BDC2-A76270226F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55177019-DD5E-4A0B-BDC2-A76270226F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55177019-DD5E-4A0B-BDC2-A76270226F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55177019-DD5E-4A0B-BDC2-A76270226F54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

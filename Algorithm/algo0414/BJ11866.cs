@@ -24,16 +24,19 @@ namespace algo0414
                 queue.Enqueue(i);
             }
 
+            //다 죽을 때까지
             while (queue.Count > 0)
             {
                 int currentOrder = 1;
 
+                //죽일 순번까지 뒤로 돌리고
                 while (currentOrder < orderNum) 
                 {
                     currentOrder++;
                     queue.Enqueue(queue.Dequeue());
                 }
 
+                //죽이기
                 if(queue.Count == 1)
                 {
                     sb11866.Append(queue.Dequeue().ToString());

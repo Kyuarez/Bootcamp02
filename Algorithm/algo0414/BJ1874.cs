@@ -36,18 +36,18 @@ namespace algo0414
                 //check
                 while (true)
                 {
-                    if(stack.Count <= 0)
+                    if(stack.Count <= 0) //체크할 스택 없음?
                     {
                         break;
                     }
 
-                    if(stack.Peek() == inputList[currentIndex])
+                    if(stack.Peek() == inputList[currentIndex]) //같은 경우
                     {
                         stack.Pop();
                         sb1874.AppendLine("-");
                         currentIndex++;
                     }
-                    else
+                    else //스택값이랑 같지 않아요
                     {
                         break;
                     }
