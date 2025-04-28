@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\bin\Debug\net8.0\algoPath.exe
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\bin\Debug\net8.0\algoPath.deps.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\bin\Debug\net8.0\algoPath.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\bin\Debug\net8.0\algoPath.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\bin\Debug\net8.0\algoPath.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.sourcelink.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\refint\algoPath.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\algoPath.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\algoPath\obj\Debug\net8.0\ref\algoPath.dll

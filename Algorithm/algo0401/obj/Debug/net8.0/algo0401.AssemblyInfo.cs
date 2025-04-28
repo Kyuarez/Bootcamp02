@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("algo0401")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beffbc2eb59e67a2b0599ffd24de93a8cc35f039")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+735a40a2024cfeb36433c5fb49315e5b4fa4b30f")]
 [assembly: System.Reflection.AssemblyProductAttribute("algo0401")]
 [assembly: System.Reflection.AssemblyTitleAttribute("algo0401")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

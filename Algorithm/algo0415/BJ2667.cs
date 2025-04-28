@@ -57,10 +57,12 @@ namespace algo0415
             }
         }
 
+        //기본 : 현재 방문할 노드, 방문 기록지(static 아니면)
         public static void DFS2667(bool[,] isVisited, int x, int y, int max, ref int houseCount)
         {
             isVisited[x, y] = true;
             houseCount++;
+
             //상
             if (y - 1 >= 0)
             {
@@ -96,6 +98,17 @@ namespace algo0415
                     DFS2667(isVisited, x + 1, y, max, ref houseCount);
                 }
             }
+        }
+
+        public static string[] Map2667 = new string[25];
+        public static void BJ2667_2()
+        {
+            int N = int.Parse(Console.ReadLine()!);
+            for (int i = 0; i < N; i++)
+            {
+                Map2667[i] = Console.ReadLine()!;
+            }
+
         }
     }
 }

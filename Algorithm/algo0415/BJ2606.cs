@@ -31,9 +31,11 @@ namespace algo0415
                 graph[vertexB - 1].Add(vertexA);
             }
 
-            //Logic
             int start = 1;
             bool[] isVisited = new bool[computerCount];
+            //Logic
+            #region BFS
+            /*
             isVisited[start - 1] = true;
             int searchCount = 0;
             Queue<long> queue = new Queue<long>();
@@ -56,6 +58,31 @@ namespace algo0415
             }
 
             Console.WriteLine(searchCount);
+            */
+            #endregion
+
+            #region DFS
+            int result = 0;
+            result = DFS2606(isVisited, graph, start);
+            Console.WriteLine(result);
+            #endregion
+        }
+
+        public static int DFS2606(bool[] isVisited, List<int>[] graph, int start)
+        {
+            isVisited[start - 1] = true;
+            int count = 0; 
+            //추가 
+
+            foreach (int adjacent in graph[start - 1])
+            {
+                if (isVisited[adjacent - 1] == false)
+                {
+                    isVisited[adjacent - 1] = true;
+                    count += DFS2606(isVisited, graph, adjacent) + 1;
+                }
+            }
+            return count;
         }
     }
 }

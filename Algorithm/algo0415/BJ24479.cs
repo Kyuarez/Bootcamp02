@@ -48,7 +48,7 @@ namespace algo0415
             }
 
             isVisited24479 = new long[vertexCount];
-            long searchCount = 0;
+            long searchCount = 0;   
 
             DFS24479(graph, vertexCount, edgeCount, start, ref searchCount);
             for (int i = 0; i < isVisited24479.Length; i++)

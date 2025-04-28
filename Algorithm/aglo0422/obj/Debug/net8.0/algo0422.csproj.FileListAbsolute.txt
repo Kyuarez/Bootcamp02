@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\bin\Debug\net8.0\algo0422.exe
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\bin\Debug\net8.0\algo0422.deps.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\bin\Debug\net8.0\algo0422.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\bin\Debug\net8.0\algo0422.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\bin\Debug\net8.0\algo0422.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.sourcelink.json
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\refint\algo0422.dll
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.pdb
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\algo0422.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Bootcamp02\Algorithm\aglo0422\obj\Debug\net8.0\ref\algo0422.dll
